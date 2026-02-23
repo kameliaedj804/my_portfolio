@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">  
+</head>
+
+
+
+<header>
+  <nav class="navbar">
+    <!-- Logo à gauche -->
+    <div class="logo">
+      <a href="#home">Kamelia</a>
+    </div>
+
+    <!-- Menu principal -->
+    <ul class="nav-links">
+      <li><a href="#home">Accueil</a></li>
+      <li><a href="#a-propos">À propos</a></li>
+      <li><a href="#projets">Projets</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- Burger menu pour mobile -->
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+    </div>
+  </nav>
+</header>
+
+
+<body>
+<section id="home">
+  <div class="intro" style="display: flex; align-items: center; max-width: 1000px; margin: auto; background-color: #ffcce7; padding: 40px; border-radius: 12px; gap: 30px; flex-wrap: wrap; box-shadow: 0 10px 25px rgba(0,0,0,0.15);">
+    
+    <!-- Photo de profil déplacée à gauche -->
+    <div class="profile-container" style="flex: 0 0 180px; display: flex; justify-content: center; align-items: center;">
+      <img src="images/image linekdin.jpg" alt="Photo de profil" class="profile-pic" style="width: 160px; height: 160px; border-radius: 50%; border: 5px solid #ff69b4; object-fit: cover; animation: float 3s ease-in-out infinite; box-shadow: 0 8px 20px rgba(0,0,0,0.2);">
+    </div>
+
+    <!-- Texte de bienvenue -->
+    <section id="welcome" style="flex: 1 1 500px; animation: fadeInSlide 1s ease forwards;">
+      <div style="max-width: 800px;">
+        <h1 style="font-size: 2.5em; color: #ff69b4; margin-bottom: 20px; animation: bounce 1.5s infinite;">
+          Bienvenue dans mon univers numérique !
+        </h1>
+        <p style="font-size: 1.2em; line-height: 1.6; margin-bottom: 30px; color: #6a1b9a;">
+          Je suis <strong>EDJEKOUANE Kamelia</strong>, passionnée par le développement web et la création de solutions numériques sur mesure. 
+          Ici, vous découvrirez mes <a href="#projets" style="color: #ff69b4; text-decoration: underline;">projets</a>, mes compétences, et un peu de moi-même.  
+          Mon objectif ? Transformer des idées en expériences interactives qui captivent et inspirent.
+        </p>
+        <a href="images/CV EDJEKOUANE Kamelia.pdf" download style="display: inline-block; padding: 15px 30px; background-color: #ff69b4; color: #fff; text-decoration: none; font-size: 1.1em; border-radius: 5px; transition: background-color 0.3s, transform 0.3s; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);" onmouseover="this.style.transform='translateY(-3px)'" onmouseout="this.style.transform='translateY(0)'">📂 Télécharger mon CV</a>
+      </div>
+    </section>
+  </div>
+</section>
+
+      <br> 
+      <br>
+
+      <section id="projets">
+  <h2 class="section-title">Mes Projets</h2>
+  <div class="gallery">
+    <!-- Projet 1 -->
+    <div class="project-card fade-in">
+      <img src="images/sorbonne.png" alt="Projet 1">
+      <div class="project-info">
+        <h3>Parcours de formation</h3>
+        <p>Présentation des aspects et objectifs professionnels</p>
+        <a href="parcours.html" class="btn details-btn" target="_blank">Voir plus</a>
+      </div>
+    </div>
+
+    <!-- Projet 2 -->
+    <div class="project-card fade-in delay-1">
+      <img src="images/forms.png" alt="Projet 2">
+      <div class="project-info">
+        <h3>Site web personnel</h3>
+        <p>Formulaire client et design responsive</p>
+        <a href="details-projet2.html" class="btn details-btn" target="_blank">Voir plus</a>
+      </div>
+    </div>
+
+    <!-- Projet 3 -->
+    <div class="project-card fade-in delay-2">
+      <img src="images/automates.png" alt="Projet 3">
+      <div class="project-info">
+        <h3>Automates</h3>
+        <p>Déterminisation et manipulation des automates</p>
+        <a href="details-projet3.html" class="btn details-btn" target="_blank">Voir plus</a>
+      </div>
+    </div>
+
+    <!-- Projet 4 -->
+    <div class="project-card fade-in delay-3">
+      <img src="images/arnm.png" alt="Projet 4">
+      <div class="project-info">
+        <h3>Vaccin à ARNm</h3>
+        <p>Avancée majeure dans le domaine de la vaccination</p>
+        <a href="details-projets4.html" class="btn details-btn" target="_blank">Voir plus</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="competences">
+  <h2 class="section-title">Mes Compétences</h2>
+  <div class="skills-container">
+    <div class="skill-card fade-in">
+      <i class="fab fa-html5"></i>
+      <h3>HTML</h3>
+      <p>Structure sémantique, intégration de médias, formulaires et optimisation.</p>
+    </div>
+    <div class="skill-card fade-in delay-1">
+      <i class="fab fa-css3-alt"></i>
+      <h3>CSS</h3>
+      <p>Mises en page modernes, design responsive, animations et styles avancés CSS3.</p>
+    </div>
+    <div class="skill-card fade-in delay-2">
+      <i class="fab fa-js-square"></i>
+      <h3>JavaScript</h3>
+      <p>Interfaces interactives, manipulation DOM, validations et gestion d'événements.</p>
+    </div>
+    <div class="skill-card fade-in delay-3">
+      <i class="fab fa-php"></i>
+      <h3>PHP</h3>
+      <p>Backend, utilisation de Git, VS Code et bonnes pratiques de développement.</p>
+    </div>
+    <div class="skill-card fade-in delay-4">
+      <i class="fas fa-laptop-code"></i>
+      <h3>Programmation</h3>
+      <p>Python, C, Java avancé, Shell, systèmes d’exploitation et bases de données.</p>
+    </div>
+  </div>
+</section>
+
+        
+      <br>
+
+  <section id="a-propos">
+  <h2 class="section-title">À propos de moi</h2>
+  <div class="about-container">
+    
+    <div class="about-content">
+      <p class="fade-in">
+        Bonjour, je m'appelle <strong>EDJEKOUANE Kamelia</strong>, étudiante en L3 informatique parcours DANT (Développeur d'applications et de nouvelles technologies) au sein de Sorbonne Université. Après l'obtention de mon baccalauréat en 2023 série Sciences Expérimentales, j'ai intégré mon université actuelle. Avec un programme consistant, des UE variées et des professeurs expérimentés, j'ai pu acquérir plusieurs connaissances dans le domaine informatique. Je suis actuellement alternante en IT et cybersécurité chez Lillybelle.
+      </p>
+
+<div class="about-card fade-in delay-1">
+  <h3>Expérience professionnelle</h3>
+  <ul>
+    <div class="about-card fade-in delay-1">
+  <h3>Stage et alternance chez Lillybelle</h3>
+  <p>Durant mon stage de 2 mois et demi puis mon alternance en cybersécurité et IT, j’ai participé à plusieurs missions concrètes et variées :</p>
+  <ul>
+    <li>Développement de sites web modernes, responsives et adaptés aux besoins actuels.</li>
+    <li>Programmation et résolution de problèmes complexes en Java avancé et autres langages.</li>
+    <li>Participation au déploiement et tests des serveurs pour garantir leur fiabilité.</li>
+    <li>Gestion des tickets IT et support utilisateur pour assurer un fonctionnement fluide des systèmes.</li>
+    <li>Développement et automatisation d’outils internes pour améliorer l’efficacité des équipes.</li>
+    <li>Amélioration de l’infrastructure de cybersécurité et mise en place de bonnes pratiques.</li>
+    <li>Sensibilisation des utilisateurs aux enjeux de cybersécurité et bonnes pratiques IT.</li>
+  </ul>
+</div>
+
+      <div class="fade-in delay-2">
+        <strong>Formation :</strong>
+        <ul>
+          <li>Baccalauréat 2023 en Sciences Expérimentales</li>
+          <li>Certifications : HTML5, CSS3, JavaScript, Bootstrap, PHP</li>
+          <li>Langages : Java, C avancé, Python, OCaml, Shell – orientés objet</li>
+        </ul>
+      </div>
+
+      <div class="fade-in delay-3">
+        <strong>Centres d'intérêt :</strong>
+        <ul>
+          <li>Technologies : IA, blockchain, développement durable</li>
+          <li>Voyages, photographie et nature</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="about-illustrations">
+      <img src="images/projetcode.png" alt="Illustration A propos 3" class="about-illustration hover-zoom">
+      <img src="images/nature.png" alt="Illustration A propos 1" class="about-illustration hover-zoom">
+      <img src="images/ai.png" alt="Illustration A propos 2" class="about-illustration hover-zoom">
+    </div>
+  </div>
+</section>
+
+       
+       
+      
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h2>Contactez-moi</h2>
+
+    <!-- Formulaire de contact -->
+    <form id="contactForm" action="#" method="post" onsubmit="return validateForm()" class="contact-form">
+      
+      <div class="form-group">
+        <label for="nom">Votre nom</label>
+        <input type="text" name="nom" id="nom" placeholder="Entrez votre nom" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Votre e-mail</label>
+        <input type="email" name="email" id="email" placeholder="Entrez votre e-mail" required>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Votre message</label>
+        <textarea name="message" id="message" placeholder="Écrivez votre message..." required></textarea>
+      </div>
+
+      <button type="submit" class="btn">Envoyer</button>
+
+      <!-- Message de confirmation ou d'erreur -->
+      <div id="formMessage" class="form-message"></div>
+    </form>
+  </div>
+</section>
+ 
+<!-- Ruban social et copyright -->
+<div class="footer-ribbon">
+  <div class="social-links-footer">
+    <a href="https://github.com/kameliaedj804" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://www.linkedin.com/in/kamelia-edjekouane-6496232a3/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+      <i class="fab fa-linkedin"></i>
+    </a>
+    <a href="mailto:kameliaedj7@gmail.com" aria-label="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+  </div>
+  <div class="copyright">
+    &copy; 2024 Kamelia Edjekouane
+  </div>
+</div>
+
+
+
+    <script src="hamburger.js"></script>
+</body>
+</html>
