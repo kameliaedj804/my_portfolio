@@ -35,13 +35,4 @@ Chaque projet contient un lien pour en savoir plus.
 - **Autres passions** : IA, blockchain, développement durable  
 
 
-## Me contacter
-
-Si vous voulez me parler ou suivre mes projets :  
-
-- [LinkedIn](https://www.linkedin.com)  
-- [GitHub](https://github.com/kameliaedj804)  
-- Email : `example@example.com`  
-
-
 Merci d’avoir pris le temps de visiter mon portfolio ! J’espère que mes projets vous inspireront autant que moi j’ai aimé les réaliser. ✨
